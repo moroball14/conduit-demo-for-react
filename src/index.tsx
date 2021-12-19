@@ -1,9 +1,14 @@
+import { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import { Home } from './components/Home/Home';
+import { App } from './components/App/App';
+import { Footer } from './components/Footer/Footer';
+import { Header } from './components/Header/Header';
 
 ReactDOM.render(
-  <div>
-    <Home />
-  </div>,
+  <Fragment>
+    <Header />
+    <App />
+    <Footer />
+  </Fragment>,
   document.getElementById('root')
 );
