@@ -3,15 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hqoss/monads": "^0.5.0",
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
+    "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/axios": "^0.14.0",
+    "@types/date-fns": "^2.6.0",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "@types/react-redux": "^7.1.7",
+    "axios": "^0.24.0",
+    "date-fns": "^2.27.0",
+    "decoders": "^1.25.5",
     "ramda": "^0.27.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -47,10 +53,10 @@
     "@typescript-eslint/eslint-plugin": "^5.7.0",
     "@typescript-eslint/parser": "^5.7.0",
     "cross-env": "^7.0.3",
-    "eslint": "^8.5.0",
     "prettier": "^2.5.1"
   },
   "jest": {
+    "clearMocks": true,
     "collectCoverageFrom": [
       "!<rootDir>/src/index.tsx"
     ],
